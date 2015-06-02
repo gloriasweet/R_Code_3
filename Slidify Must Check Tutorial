@@ -6,3 +6,13 @@ CHECK OUT SOME EXAMPLES
 http://timelyportfolio.github.io/rCharts_dimple/gallery/example01_bar_vert.html
 
 http://ramnathv.github.io/rCharts/
+
+
+#how to use slidify
+library(devtools)
+install_github('slidify','ramnathv')
+install_github('slidifyLibraries','ramnathv')
+
+#after installation
+library(slidify)
+author('slidifyDemo')
